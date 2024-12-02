@@ -12,7 +12,8 @@ namespace Tyuiu.SimonovMA.Sprint6.Task1.V23.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                double f_x = Math.Round(Math.Sin(x) + ((2.0 * x) / 3.0) - (Math.Cos(x) * (4.0 * x)), 2);
+                double x_D = Convert.ToDouble(x);
+                double f_x = Math.Round(Math.Sin(x_D) + ((2.0 * x_D) / 3.0) - (Math.Cos(x_D) * (4.0 * x_D)), 2);
                 result[count] = f_x;
                 count++;
             }
