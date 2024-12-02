@@ -11,5 +11,15 @@ namespace Tyuiu.SimonovMA.Sprint6.Task2.V29
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
