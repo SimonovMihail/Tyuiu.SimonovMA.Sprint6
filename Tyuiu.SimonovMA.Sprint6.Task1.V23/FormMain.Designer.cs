@@ -175,7 +175,7 @@
             Controls.Add(taskPicture_SMA);
             Controls.Add(taskLabel_SMA);
             Name = "FormMain";
-            Text = "Form1";
+            Text = "Спринт 6 | Таск 1 | Вариант 23 |  Симонов М.А.";
             Load += FormMain_Load;
             ((System.ComponentModel.ISupportInitialize)taskPicture_SMA).EndInit();
             ResumeLayout(false);
