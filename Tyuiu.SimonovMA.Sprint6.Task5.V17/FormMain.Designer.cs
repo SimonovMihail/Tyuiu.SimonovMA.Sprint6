@@ -86,7 +86,7 @@
             buttonChoose_SMA.Name = "buttonChoose_SMA";
             buttonChoose_SMA.Size = new Size(75, 66);
             buttonChoose_SMA.TabIndex = 2;
-            buttonChoose_SMA.Text = "Выбрать файл";
+            buttonChoose_SMA.Text = "Открыть файл";
             buttonChoose_SMA.UseVisualStyleBackColor = true;
             buttonChoose_SMA.Click += buttonChoose_SMA_Click;
             // 
