@@ -6,14 +6,13 @@ namespace Tyuiu.SimonovMA.Sprint6.Task6.V12.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            var content = File.ReadAllText(path);
+                var content = File.ReadAllText(path);
 
-            var result = content
-                    .Split(new[] { ' ', '\n', '\r', '\t', ',', '.', '!', '?', ';', ':', '(', ')', '[', ']', '{', '}' }, StringSplitOptions.RemoveEmptyEntries)
-                    .Where(word => word.Contains('w', StringComparison.OrdinalIgnoreCase))
-                    .Aggregate((current, next) => $"{current} {next}");
+                var filteredWords = content
+                    .Split(new[] { ' ', '\r', '\n', '\t', ',', '.', '!', '?', ';', ':', '-', '(', ')' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Where(word => word.Contains('w') && !word.Contains('W'));
 
-            return Convert.ToString(result);
+                return string.Join(" ", filteredWords);
         }
     }
 }
