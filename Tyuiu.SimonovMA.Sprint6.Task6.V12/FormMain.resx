@@ -120,4 +120,7 @@
   <data name="textBoxTask_SMA.Text" xml:space="preserve">
     <value>Дан файл InPutFileTask6V12.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog. Вывести слова в которых встречается w в результирующею строку и вывести ее в textBoxOut.</value>
   </data>
+  <metadata name="openFileDialogTask_SMA.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
