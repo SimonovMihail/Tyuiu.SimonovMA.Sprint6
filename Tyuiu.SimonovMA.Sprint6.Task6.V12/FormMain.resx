@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBoxTask_SMA.Text" xml:space="preserve">
+    <value>Дан файл InPutFileTask6V12.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog. Вывести слова в которых встречается w в результирующею строку и вывести ее в textBoxOut.</value>
+  </data>
 </root>

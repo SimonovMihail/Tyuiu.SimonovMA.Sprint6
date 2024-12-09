@@ -146,7 +146,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "FormMain";
-            Text = "Спринт 6 | Таск 4 | Вариант 17 |  Симонов М.А.";
+            Text = "Спринт 6 | Таск 5 | Вариант 17 |  Симонов М.А.";
             Load += FormMain_Load;
             groupBoxTask_SMA.ResumeLayout(false);
             groupBoxTask_SMA.PerformLayout();
