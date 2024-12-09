@@ -13,7 +13,7 @@ namespace Tyuiu.SimonovMA.Sprint6.Task6.V12.Lib
                     .Where(word => word.Contains(str, StringComparison.OrdinalIgnoreCase))
                     .Aggregate((current, next) => $"{current} {next}");
 
-            return result;
+            return Convert.ToString(result);
         }
     }
 }
